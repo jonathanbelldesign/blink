@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Lena's Kitchen",
+      "subtitle": "Fresh, homemade catering for events big and small"
+    },
+    {
+      "type": "text",
+      "body": "We specialize in Southern comfort food made from scratch. Whether it's a backyard birthday, a corporate lunch, or a wedding reception, we bring the warmth of a home-cooked meal to your event. Based in Fort Worth, serving all of DFW. Minimum 15 guests."
+    },
+    {
+      "type": "image",
+      "src": "/spread.jpg",
+      "caption": "Our signature family-style spread — brisket, sides, and all the fixings"
+    },
+    {
+      "type": "quote",
+      "text": "Lena catered our company picnic and every single person asked for the mac and cheese recipe. Incredible food, incredibly easy to work with.",
+      "attribution": "— Dana R., event coordinator"
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "See our menu on Instagram", "url": "https://instagram.com/lenaskitchenfw", "platform": "instagram" },
+        { "label": "Find us on Facebook", "url": "https://facebook.com/lenaskitchenfw", "platform": "facebook" },
+        { "label": "Read our reviews on Yelp", "url": "https://yelp.com/lenaskitchen", "platform": "yelp" },
+        { "label": "Request a quote", "url": "mailto:lena@lenaskitchen.com", "platform": "generic" }
+      ]
+    }
+  ]
+}

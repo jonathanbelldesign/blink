@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Joe's Barbershop",
+      "subtitle": "Walk-ins welcome"
+    },
+    {
+      "type": "text",
+      "body": "We've been cutting hair in Fort Worth since 2008. Three chairs, no appointments needed, and a playlist that's been running since the Obama administration. Come say hi."
+    },
+    {
+      "type": "image",
+      "src": "/photo.svg",
+      "caption": "Our shop on Magnolia Ave"
+    },
+    {
+      "type": "quote",
+      "text": "Best cut I've ever had.",
+      "attribution": "— Mike T."
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "Instagram", "url": "https://instagram.com/joesbarbershop", "platform": "instagram" },
+        { "label": "Find us on Facebook", "url": "https://facebook.com/joesbarbershop", "platform": "facebook" },
+        { "label": "Reviews on Yelp", "url": "https://yelp.com/biz/joes-barbershop-fort-worth", "platform": "yelp" },
+        { "label": "Get directions", "url": "https://maps.google.com/?q=Joes+Barbershop+Fort+Worth", "platform": "google_maps" },
+        { "label": "Book now", "url": "https://booksy.com/joesbarbershop", "platform": "generic" }
+      ]
+    },
+    {
+      "type": "embed",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  ]
+}

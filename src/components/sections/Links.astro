@@ -1,0 +1,10 @@
+---
+import type { LinksSection } from '../../types';
+import LinksList from './LinksList';
+
+type Props = LinksSection;
+
+const { items } = Astro.props;
+---
+
+<LinksList items={items} client:load />

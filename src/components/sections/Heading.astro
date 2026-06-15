@@ -1,0 +1,38 @@
+---
+import type { HeadingSection } from '../../types';
+
+type Props = HeadingSection;
+
+const { title, subtitle } = Astro.props;
+---
+
+<header class="heading">
+  <h1>{title}</h1>
+  {subtitle && <p class="subtitle">{subtitle}</p>}
+</header>
+
+<style>
+  .heading {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .subtitle {
+    margin: 0.5rem 0 0;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+</style>

@@ -1,0 +1,47 @@
+---
+import '../styles/global.css';
+import content from '../data/content.json';
+import type { PageContent } from '../types';
+import Heading from '../components/sections/Heading.astro';
+import Text from '../components/sections/Text.astro';
+import Image from '../components/sections/Image.astro';
+import Quote from '../components/sections/Quote.astro';
+import Links from '../components/sections/Links.astro';
+import Embed from '../components/sections/Embed.astro';
+
+const { sections } = content as PageContent;
+
+const pageTitle = sections.find((s) => s.type === 'heading')?.title ?? 'Page';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+	</head>
+	<body>
+		<main>
+			{sections.map((section) => {
+				switch (section.type) {
+					case 'heading':
+						return <Heading {...section} />;
+					case 'text':
+						return <Text {...section} />;
+					case 'image':
+						return <Image {...section} />;
+					case 'quote':
+						return <Quote {...section} />;
+					case 'links':
+						return <Links {...section} />;
+					case 'embed':
+						return <Embed {...section} />;
+					default:
+						return null;
+				}
+			})}
+		</main>
+	</body>
+</html>

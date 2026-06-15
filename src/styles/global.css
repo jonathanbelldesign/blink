@@ -1,0 +1,51 @@
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #111111;
+  --color-muted: #6b6b6b;
+  --color-border: #e0e0e0;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+  --max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-mono);
+  background: var(--color-bg);
+  color: var(--color-fg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+@media (min-width: 640px) {
+  main {
+    padding: 4rem 1.5rem 6rem;
+    gap: 4rem;
+  }
+}

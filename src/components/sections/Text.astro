@@ -1,0 +1,22 @@
+---
+import type { TextSection } from '../../types';
+
+type Props = TextSection;
+
+const { body } = Astro.props;
+---
+
+<section class="text">
+  <p>{body}</p>
+</section>
+
+<style>
+  .text {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+</style>
