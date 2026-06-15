@@ -1,0 +1,15 @@
+---
+import type { LinkItem } from '../../types';
+import './cta.css';
+
+type Props = { item: LinkItem };
+
+const { item } = Astro.props;
+---
+
+<a class="cta" href={item.url} target="_blank" rel="noopener noreferrer">
+	<span>{item.label}</span>
+	<svg class="cta__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+		<path d="M5 12h14M13 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+	</svg>
+</a>
