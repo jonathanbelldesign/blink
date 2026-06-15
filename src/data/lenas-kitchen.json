@@ -1,9 +1,21 @@
 {
+  "theme": {
+    "colors": {
+      "background": "#fdf6ec",
+      "text": "#3a2c20",
+      "accent": "#b5481f"
+    },
+    "fonts": {
+      "heading": "Georgia, 'Times New Roman', serif",
+      "body": "ui-serif, Georgia, serif"
+    }
+  },
   "sections": [
     {
       "type": "heading",
       "title": "Lena's Kitchen",
-      "subtitle": "Fresh, homemade catering for events big and small"
+      "subtitle": "Fresh, homemade catering for events big and small",
+      "phone": "(817) 555-0198"
     },
     {
       "type": "text",

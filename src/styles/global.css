@@ -1,9 +1,12 @@
 :root {
   --color-bg: #ffffff;
   --color-fg: #111111;
+  --color-accent: #111111;
   --color-muted: #6b6b6b;
   --color-border: #e0e0e0;
   --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+  --font-heading: var(--font-mono);
+  --font-body: var(--font-mono);
   --max-width: 800px;
 }
 
@@ -18,7 +21,7 @@ body {
 }
 
 body {
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
   background: var(--color-bg);
   color: var(--color-fg);
   line-height: 1.6;

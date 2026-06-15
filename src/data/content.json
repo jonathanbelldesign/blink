@@ -3,7 +3,8 @@
     {
       "type": "heading",
       "title": "Joe's Barbershop",
-      "subtitle": "Walk-ins welcome"
+      "subtitle": "Walk-ins welcome",
+      "phone": "(817) 555-0142"
     },
     {
       "type": "text",
@@ -11,7 +12,7 @@
     },
     {
       "type": "image",
-      "src": "/photo.svg",
+      "src": "/barbershop.jpg",
       "caption": "Our shop on Magnolia Ave"
     },
     {

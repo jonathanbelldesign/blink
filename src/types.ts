@@ -18,6 +18,7 @@ export interface HeadingSection {
   type: 'heading';
   title: string;
   subtitle?: string;
+  phone?: string;
 }
 
 export interface TextSection {
@@ -55,6 +56,23 @@ export type Section =
   | LinksSection
   | EmbedSection;
 
+export interface ThemeColors {
+  background?: string;
+  text?: string;
+  accent?: string;
+}
+
+export interface ThemeFonts {
+  heading?: string;
+  body?: string;
+}
+
+export interface Theme {
+  colors?: ThemeColors;
+  fonts?: ThemeFonts;
+}
+
 export interface PageContent {
+  theme?: Theme;
   sections: Section[];
 }

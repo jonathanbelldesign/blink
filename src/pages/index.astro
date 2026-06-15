@@ -1,17 +1,10 @@
 ---
 import '../styles/global.css';
-import content from '../data/content.json';
-import type { PageContent } from '../types';
-import Heading from '../components/sections/Heading.astro';
-import Text from '../components/sections/Text.astro';
-import Image from '../components/sections/Image.astro';
-import Quote from '../components/sections/Quote.astro';
-import Links from '../components/sections/Links.astro';
-import Embed from '../components/sections/Embed.astro';
 
-const { sections } = content as PageContent;
-
-const pageTitle = sections.find((s) => s.type === 'heading')?.title ?? 'Page';
+const pages = [
+	{ href: '/barbershop', label: "Joe's Barbershop" },
+	{ href: '/kitchen', label: "Lena's Kitchen" },
+];
 ---
 
 <html lang="en">
@@ -20,28 +13,63 @@ const pageTitle = sections.find((s) => s.type === 'heading')?.title ?? 'Page';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>Examples</title>
 	</head>
 	<body>
 		<main>
-			{sections.map((section) => {
-				switch (section.type) {
-					case 'heading':
-						return <Heading {...section} />;
-					case 'text':
-						return <Text {...section} />;
-					case 'image':
-						return <Image {...section} />;
-					case 'quote':
-						return <Quote {...section} />;
-					case 'links':
-						return <Links {...section} />;
-					case 'embed':
-						return <Embed {...section} />;
-					default:
-						return null;
-				}
-			})}
+			<header class="heading">
+				<h1>Examples</h1>
+			</header>
+			<ul class="examples">
+				{pages.map((page) => (
+					<li>
+						<a href={page.href}>{page.label}</a>
+					</li>
+				))}
+			</ul>
 		</main>
 	</body>
 </html>
+
+<style>
+	.heading {
+		text-align: center;
+		padding-top: 0.5rem;
+	}
+
+	h1 {
+		font-size: 1.75rem;
+		font-weight: 600;
+		margin: 0;
+		letter-spacing: -0.01em;
+	}
+
+	.examples {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.examples a {
+		display: block;
+		padding: 0.85rem 1rem;
+		border: 1px solid var(--color-border);
+		text-decoration: none;
+		font-size: 0.95rem;
+		transition: border-color 0.15s ease, background-color 0.15s ease;
+	}
+
+	.examples a:hover {
+		border-color: var(--color-accent);
+		background-color: #fafafa;
+	}
+
+	@media (min-width: 640px) {
+		h1 {
+			font-size: 2.25rem;
+		}
+	}
+</style>
