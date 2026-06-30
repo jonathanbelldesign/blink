@@ -1,0 +1,43 @@
+{
+  "theme": {
+    "colors": {
+      "background": "#0c1929",
+      "text": "#f0e6d0",
+      "accent": "#c4963a"
+    },
+    "fonts": {
+      "heading": "Georgia, 'Times New Roman', serif",
+      "body": "ui-serif, Georgia, serif"
+    }
+  },
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Chef René Moreau",
+      "subtitle": "Private dining & supper clubs — New Orleans, LA",
+      "phone": "(504) 555-0129"
+    },
+    {
+      "type": "quote",
+      "text": "René turned our dining room into a restaurant for one night. Our guests are still talking about the third course.",
+      "attribution": "— Isabelle & Thomas W."
+    },
+    {
+      "type": "text",
+      "body": "Intimate dinners for 4 to 20. Seasonal menus designed around your guests, your space, and the occasion — sourced from local farms wherever possible. Engagement dinners, anniversary suppers, and monthly supper clubs. Fully staffed service available."
+    },
+    {
+      "type": "image",
+      "src": "/lily-banse--YHSwy6uqvk-unsplash.jpg",
+      "caption": "Six-course autumn tasting menu — Garden District residence"
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "See the work on Instagram", "url": "https://instagram.com/chefreneno", "platform": "instagram" },
+        { "label": "Find us on Facebook", "url": "https://facebook.com/chefreneno", "platform": "facebook" },
+        { "label": "Inquire about an evening", "url": "mailto:rene@chefreneno.com", "platform": "generic" }
+      ]
+    }
+  ]
+}

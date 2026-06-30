@@ -1,0 +1,44 @@
+{
+  "theme": {
+    "colors": {
+      "background": "#ffd700",
+      "text": "#1a0900",
+      "accent": "#cc2200"
+    },
+    "fonts": {
+      "heading": "system-ui, -apple-system, sans-serif",
+      "body": "system-ui, -apple-system, sans-serif"
+    }
+  },
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Fuego on Wheels",
+      "subtitle": "Texas BBQ & Tex-Mex smashups — find us around Austin",
+      "phone": "(512) 555-0388"
+    },
+    {
+      "type": "image",
+      "src": "/scott-madore-1-WRkDjm_K4-unsplash.jpg",
+      "caption": "Friday night on South Congress — the line starts early"
+    },
+    {
+      "type": "quote",
+      "text": "I've been chasing this truck for two years. The brisket taco alone is worth it. Worth. It.",
+      "attribution": "— Tanya M., via Yelp"
+    },
+    {
+      "type": "text",
+      "body": "We park where the people are. Brisket tacos, smoked elote, rotating specials every week. Location drops on Instagram by 10am. Available for private events and food truck rallies — minimum 50 guests."
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "Location drops on Instagram", "url": "https://instagram.com/fuegoonwheels", "platform": "instagram" },
+        { "label": "Follow on TikTok", "url": "https://tiktok.com/@fuegoonwheels", "platform": "tiktok" },
+        { "label": "Reviews on Yelp", "url": "https://yelp.com/fuegoonwheels", "platform": "yelp" },
+        { "label": "Book us for your event", "url": "mailto:bookings@fuegoonwheels.com", "platform": "generic" }
+      ]
+    }
+  ]
+}

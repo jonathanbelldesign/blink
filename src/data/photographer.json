@@ -1,0 +1,38 @@
+{
+  "theme": {
+    "colors": {
+      "background": "#eef2ed",
+      "text": "#1a2a1e",
+      "accent": "#3a7043"
+    },
+    "fonts": {
+      "heading": "Georgia, 'Times New Roman', serif",
+      "body": "ui-monospace, 'SF Mono', monospace"
+    }
+  },
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Elise Nakamura",
+      "subtitle": "Portrait & editorial photographer — Charleston, SC"
+    },
+    {
+      "type": "image",
+      "src": "/pexels-suraj-galgale-1822752-17284486.jpg",
+      "caption": "Engagement photo, Nawegaon Bandh, MH, India"
+    },
+    {
+      "type": "quote",
+      "text": "Elise made us feel completely at ease. The photos look like us — not a stock shoot. We'll be going back every year.",
+      "attribution": "— The Okafor family"
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "Portfolio on Instagram", "url": "https://instagram.com/elisenakamura.photo", "platform": "instagram" },
+        { "label": "Full gallery on Facebook", "url": "https://facebook.com/elisenakamura.photo", "platform": "facebook" },
+        { "label": "Book a session", "url": "mailto:hello@elisenakamura.com", "platform": "generic" }
+      ]
+    }
+  ]
+}

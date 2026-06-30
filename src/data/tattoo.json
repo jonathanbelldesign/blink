@@ -1,0 +1,40 @@
+{
+  "theme": {
+    "colors": {
+      "background": "#0d0d0d",
+      "text": "#f5f0e8",
+      "accent": "#ff3c54"
+    },
+    "fonts": {
+      "heading": "Impact, 'Arial Narrow', sans-serif",
+      "body": "ui-monospace, 'SF Mono', monospace"
+    }
+  },
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Maya Reyes Tattoo",
+      "subtitle": "Fine-line & blackwork — Portland, OR",
+      "phone": "(503) 555-0173"
+    },
+    {
+      "type": "image",
+      "src": "/eduardo-vaccari-pIltvcnqsfU-unsplash.jpg",
+      "caption": "Fine-line floral, healed — walk-in, no appointment"
+    },
+    {
+      "type": "quote",
+      "text": "Maya took my rough sketch and turned it into something I'll be proud of for the rest of my life. The linework is impossibly precise.",
+      "attribution": "— Jordan K."
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "Portfolio on Instagram", "url": "https://instagram.com/mayareyestattoo", "platform": "instagram" },
+        { "label": "Watch me work on TikTok", "url": "https://tiktok.com/@mayareyestattoo", "platform": "tiktok" },
+        { "label": "Reviews on Yelp", "url": "https://yelp.com/mayareyestattoo", "platform": "yelp" },
+        { "label": "Book a consultation", "url": "mailto:maya@mayareyestattoo.com", "platform": "generic" }
+      ]
+    }
+  ]
+}

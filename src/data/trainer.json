@@ -1,0 +1,44 @@
+{
+  "theme": {
+    "colors": {
+      "background": "#ffffff",
+      "text": "#111111",
+      "accent": "#0055ff"
+    },
+    "fonts": {
+      "heading": "system-ui, -apple-system, sans-serif",
+      "body": "system-ui, -apple-system, sans-serif"
+    }
+  },
+  "sections": [
+    {
+      "type": "heading",
+      "title": "Train with Dani",
+      "subtitle": "In-home, outdoor & virtual personal training — Denver, CO",
+      "phone": "(720) 555-0261"
+    },
+    {
+      "type": "quote",
+      "text": "Six months in and I've hit goals I honestly thought were off the table. Dani completely changed how I think about training.",
+      "attribution": "— Marcus T."
+    },
+    {
+      "type": "text",
+      "body": "I help busy people get strong without burning out. Programs built around your schedule, your goals, and your body — not a generic app. Available in-home across Denver and the Front Range, or virtually anywhere. First session is always free."
+    },
+    {
+      "type": "image",
+      "src": "/pexels-tanja-nikolic-437546641-15586392.jpg",
+      "caption": "Client progress — 12 weeks, twice a week"
+    },
+    {
+      "type": "links",
+      "items": [
+        { "label": "Follow on Instagram", "url": "https://instagram.com/trainwithdani", "platform": "instagram" },
+        { "label": "Workouts on TikTok", "url": "https://tiktok.com/@trainwithdani", "platform": "tiktok" },
+        { "label": "Watch on YouTube", "url": "https://youtube.com/@trainwithdani", "platform": "youtube" },
+        { "label": "Book your free session", "url": "mailto:dani@trainwithdani.com", "platform": "generic" }
+      ]
+    }
+  ]
+}
