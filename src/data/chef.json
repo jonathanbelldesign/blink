@@ -6,8 +6,8 @@
       "accent": "#c4963a"
     },
     "fonts": {
-      "heading": "Georgia, 'Times New Roman', serif",
-      "body": "ui-serif, Georgia, serif"
+      "heading": "Eiko, Georgia, 'Times New Roman', serif",
+      "body": "Fragment, ui-serif, Georgia, serif"
     }
   },
   "sections": [

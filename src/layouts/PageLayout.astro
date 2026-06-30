@@ -19,12 +19,19 @@ const pageTitle = sections.find((s) => s.type === 'heading')?.title ?? 'Page';
 const linksSection = sections.find((s): s is LinksSection => s.type === 'links');
 const cta = linksSection?.items.at(-1);
 
+const headingScale = theme?.fonts?.heading?.includes('Playground') ? 2 : 1;
+const bodyScale = theme?.fonts?.body?.includes('Playground') ? 2 : 1;
+
 const themeStyle = [
 	theme?.colors?.background && `--color-bg: ${theme.colors.background}`,
 	theme?.colors?.text && `--color-fg: ${theme.colors.text}`,
 	theme?.colors?.accent && `--color-accent: ${theme.colors.accent}`,
 	theme?.fonts?.heading && `--font-heading: ${theme.fonts.heading}`,
+	theme?.fonts?.headingWeight && `--font-weight-heading: ${theme.fonts.headingWeight}`,
+	headingScale !== 1 && `--font-scale-heading: ${headingScale}`,
 	theme?.fonts?.body && `--font-body: ${theme.fonts.body}`,
+	theme?.fonts?.bodyWeight && `--font-weight-body: ${theme.fonts.bodyWeight}`,
+	bodyScale !== 1 && `--font-scale-body: ${bodyScale}`,
 ]
 	.filter(Boolean)
 	.join('; ');

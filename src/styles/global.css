@@ -1,13 +1,19 @@
+@import "./fonts.css";
+@import "./typography.css";
+
 :root {
   --color-bg: #ffffff;
   --color-fg: #111111;
   --color-accent: #111111;
-  --color-muted: #6b6b6b;
   --color-border: #e0e0e0;
-  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+  --font-mono: Montreal, ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
   --font-heading: var(--font-mono);
+  --font-weight-heading: 700;
+  --font-scale-heading: 1;
   --font-body: var(--font-mono);
-  --max-width: 800px;
+  --font-weight-body: 400;
+  --font-scale-body: 1;
+  --max-width: 900px;
 }
 
 * {
@@ -21,7 +27,9 @@ body {
 }
 
 body {
+  --color-muted: color-mix(in srgb, var(--color-fg) 80%, transparent);
   font-family: var(--font-body);
+  font-weight: var(--font-weight-body);
   background: var(--color-bg);
   color: var(--color-fg);
   line-height: 1.6;

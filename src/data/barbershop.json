@@ -1,4 +1,16 @@
 {
+  "theme": {
+    "colors": {
+      "background": "#111111",
+      "text": "#ffffff",
+      "accent": "#b3312c"
+    },
+    "fonts": {
+      "heading": "Playground, Georgia, serif",
+      "headingWeight": 500,
+      "body": "Writer, ui-monospace, 'SF Mono', monospace"
+    }
+  },
   "sections": [
     {
       "type": "heading",

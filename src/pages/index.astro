@@ -35,6 +35,7 @@ const pages = [
 					</li>
 				))}
 			</ul>
+			<p class="footer-link"><a href="/fonts">Type specimens</a></p>
 		</main>
 	</body>
 </html>
@@ -73,6 +74,20 @@ const pages = [
 	.examples a:hover {
 		border-color: var(--color-accent);
 		background-color: #fafafa;
+	}
+
+	.footer-link {
+		text-align: center;
+		margin: 0.5rem 0 0;
+		font-size: 0.85rem;
+	}
+
+	.footer-link a {
+		color: var(--color-muted);
+	}
+
+	.footer-link a:hover {
+		color: var(--color-fg);
 	}
 
 	@media (min-width: 640px) {

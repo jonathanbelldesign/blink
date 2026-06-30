@@ -1,0 +1,184 @@
+---
+import '../styles/global.css';
+
+type Weight = { family: string; weight: number; style?: 'italic'; label: string };
+
+const families: { name: string; weights: Weight[] }[] = [
+	{
+		name: 'Eiko',
+		weights: [
+			{ family: 'Eiko', weight: 300, label: 'Light' },
+			{ family: 'Eiko', weight: 400, label: 'Regular' },
+			{ family: 'Eiko', weight: 500, label: 'Medium' },
+			{ family: 'Eiko', weight: 900, label: 'Black' },
+			{ family: 'Eiko', weight: 400, style: 'italic', label: 'Regular Italic' },
+		],
+	},
+	{
+		name: 'Fragment',
+		weights: [
+			{ family: 'Fragment', weight: 400, label: 'Regular' },
+			{ family: 'Fragment', weight: 700, label: 'Bold' },
+			{ family: 'Fragment', weight: 400, style: 'italic', label: 'Regular Italic' },
+		],
+	},
+	{
+		name: 'Montreal',
+		weights: [
+			{ family: 'Montreal', weight: 300, label: 'Light' },
+			{ family: 'Montreal', weight: 400, label: 'Book' },
+			{ family: 'Montreal', weight: 700, label: 'Bold' },
+			{ family: 'Montreal', weight: 400, style: 'italic', label: 'Book Italic' },
+		],
+	},
+	{
+		name: 'Museum',
+		weights: [
+			{ family: 'Museum', weight: 300, label: 'Light' },
+			{ family: 'Museum', weight: 400, label: 'Book' },
+			{ family: 'Museum', weight: 700, label: 'Bold' },
+			{ family: 'Museum', weight: 400, style: 'italic', label: 'Book Italic' },
+		],
+	},
+	{
+		name: 'Palma',
+		weights: [
+			{ family: 'Palma', weight: 300, label: 'Light' },
+			{ family: 'Palma', weight: 400, label: 'Regular' },
+			{ family: 'Palma', weight: 500, label: 'Medium' },
+			{ family: 'Palma', weight: 900, label: 'Heavy' },
+			{ family: 'Palma', weight: 400, style: 'italic', label: 'Regular Italic' },
+		],
+	},
+	{
+		name: 'Playground',
+		weights: [
+			{ family: 'Playground', weight: 100, label: 'Thin' },
+			{ family: 'Playground', weight: 300, label: 'Light' },
+			{ family: 'Playground', weight: 400, label: 'Regular' },
+			{ family: 'Playground', weight: 500, label: 'Medium' },
+		],
+	},
+	{
+		name: 'Writer',
+		weights: [
+			{ family: 'Writer', weight: 400, label: 'Regular' },
+			{ family: 'Writer', weight: 700, label: 'Bold' },
+			{ family: 'Writer', weight: 400, style: 'italic', label: 'Regular Italic' },
+		],
+	},
+];
+
+const specimen = 'The quick brown fox jumps over the lazy dog — 0123456789';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Type Specimens — Blink Pages</title>
+	</head>
+	<body>
+		<main>
+			<header class="heading">
+				<h1>Type Specimens</h1>
+				<p>Every font family available in <code>fonts.css</code>, for reference.</p>
+				<a class="back" href="/">&larr; Back to Blink Pages</a>
+			</header>
+
+			{families.map((family) => (
+				<section class="family">
+					<h2>{family.name}</h2>
+					<div class="cuts">
+						{family.weights.map((cut) => (
+							<p
+								class="specimen"
+								style={`font-family: '${cut.family}', sans-serif; font-weight: ${cut.weight}; font-style: ${cut.style ?? 'normal'};`}
+							>
+								<span class="cut-label">{cut.label} {cut.weight}{cut.style ? ` ${cut.style}` : ''}</span>
+								{specimen}
+							</p>
+						))}
+					</div>
+				</section>
+			))}
+		</main>
+	</body>
+</html>
+
+<style>
+	.heading {
+		text-align: center;
+		padding-top: 0.5rem;
+	}
+
+	h1 {
+		font-size: 1.75rem;
+		font-weight: 600;
+		margin: 0;
+		letter-spacing: -0.01em;
+	}
+
+	.heading p {
+		color: var(--color-muted);
+	}
+
+	.back {
+		display: inline-block;
+		margin-top: 0.5rem;
+		font-size: 0.9rem;
+		text-decoration: none;
+		color: var(--color-muted);
+	}
+
+	.back:hover {
+		color: var(--color-fg);
+	}
+
+	.family {
+		border-top: 1px solid var(--color-border);
+		padding-top: 1.5rem;
+	}
+
+	.family h2 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		margin: 0 0 1rem;
+	}
+
+	.cuts {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.specimen {
+		margin: 0;
+		font-size: 1.4rem;
+		line-height: 1.3;
+	}
+
+	.cut-label {
+		display: block;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-style: normal !important;
+		font-weight: 400 !important;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--color-muted);
+		margin-bottom: 0.2rem;
+	}
+
+	@media (min-width: 640px) {
+		h1 {
+			font-size: 2.25rem;
+		}
+
+		.specimen {
+			font-size: 1.75rem;
+		}
+	}
+</style>

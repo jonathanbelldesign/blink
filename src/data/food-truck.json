@@ -1,12 +1,12 @@
 {
   "theme": {
     "colors": {
-      "background": "#ffd700",
-      "text": "#1a0900",
+      "background": "#ffee99",
+      "text": "#000000",
       "accent": "#cc2200"
     },
     "fonts": {
-      "heading": "system-ui, -apple-system, sans-serif",
+      "heading": "Fragment, system-ui, -apple-system, sans-serif",
       "body": "system-ui, -apple-system, sans-serif"
     }
   },

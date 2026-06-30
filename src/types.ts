@@ -64,7 +64,9 @@ export interface ThemeColors {
 
 export interface ThemeFonts {
   heading?: string;
+  headingWeight?: number;
   body?: string;
+  bodyWeight?: number;
 }
 
 export interface Theme {

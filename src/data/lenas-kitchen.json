@@ -6,8 +6,8 @@
       "accent": "#b5481f"
     },
     "fonts": {
-      "heading": "Georgia, 'Times New Roman', serif",
-      "body": "ui-serif, Georgia, serif"
+      "heading": "Palma, Georgia, 'Times New Roman', serif",
+      "body": "Fragment, ui-serif, Georgia, serif"
     }
   },
   "sections": [

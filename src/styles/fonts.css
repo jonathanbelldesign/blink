@@ -1,0 +1,325 @@
+/* PP Eiko */
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-Light.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-LightItalic.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-Regular.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-Medium.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-MediumItalic.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-Black.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eiko";
+  src: url("../fonts/eiko/PPEiko-BlackItalic.woff2") format("woff2"),
+       url("../fonts/eiko/PPEiko-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* PP Fragment */
+@font-face {
+  font-family: "Fragment";
+  src: url("../fonts/fragment/PPFragment-TextRegular.woff2") format("woff2"),
+       url("../fonts/fragment/PPFragment-TextRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fragment";
+  src: url("../fonts/fragment/PPFragment-TextRegularItalic.woff2") format("woff2"),
+       url("../fonts/fragment/PPFragment-TextRegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fragment";
+  src: url("../fonts/fragment/PPFragment-TextBold.woff2") format("woff2"),
+       url("../fonts/fragment/PPFragment-TextBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fragment";
+  src: url("../fonts/fragment/PPFragment-TextBoldItalic.woff2") format("woff2"),
+       url("../fonts/fragment/PPFragment-TextBoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* PP Neue Montreal */
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-Light.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-LightItalic.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-Book.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-BookItalic.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-BookItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-Bold.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/montreal/PPNeueMontrealText-BoldItalic.woff2") format("woff2"),
+       url("../fonts/montreal/PPNeueMontrealText-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* PP Neue Montreal Museum */
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-Light.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-LightItalic.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-Book.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-BookItalic.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-BookItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-Bold.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Museum";
+  src: url("../fonts/museum/PPNeueMontrealText-BoldItalic.woff2") format("woff2"),
+       url("../fonts/museum/PPNeueMontrealText-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* PP Palma */
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-Light.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-LightItalic.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-Regular.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-RegularItalic.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-Medium.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-MediumItalic.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-Heavy.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Palma";
+  src: url("../fonts/palma/PPPalma-HeavyItalic.woff2") format("woff2"),
+       url("../fonts/palma/PPPalma-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* PP Playground */
+@font-face {
+  font-family: "Playground";
+  src: url("../fonts/playground/PPPlayground-Thin.woff2") format("woff2"),
+       url("../fonts/playground/PPPlayground-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playground";
+  src: url("../fonts/playground/PPPlayground-Light.woff2") format("woff2"),
+       url("../fonts/playground/PPPlayground-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playground";
+  src: url("../fonts/playground/PPPlayground-Regular.woff2") format("woff2"),
+       url("../fonts/playground/PPPlayground-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playground";
+  src: url("../fonts/playground/PPPlayground-Medium.woff2") format("woff2"),
+       url("../fonts/playground/PPPlayground-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PP Writer */
+@font-face {
+  font-family: "Writer";
+  src: url("../fonts/writer/PPWriter-RegularText.woff2") format("woff2"),
+       url("../fonts/writer/PPWriter-RegularText.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Writer";
+  src: url("../fonts/writer/PPWriter-RegularItalic.woff2") format("woff2"),
+       url("../fonts/writer/PPWriter-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Writer";
+  src: url("../fonts/writer/PPWriter-BoldText.woff2") format("woff2"),
+       url("../fonts/writer/PPWriter-BoldText.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Writer";
+  src: url("../fonts/writer/PPWriter-BoldItalic.woff2") format("woff2"),
+       url("../fonts/writer/PPWriter-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
